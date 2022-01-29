@@ -8,7 +8,7 @@ test('renders Quiz Manager link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('Click Accesses Quiz Manager link', () => {
+test('user can navigate to Quiz Manager', () => {
   render(<App />);
 
   userEvent.click(screen.getByText('Access Quiz Manager'))
